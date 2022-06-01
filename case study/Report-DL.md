@@ -27,6 +27,94 @@
 ### 2.3 Semantics: Dependency Graph (DG)
 
 ## 3. Meta-Commit Digest
+<table>
+    <tr>
+        <td rowspan="3">1</td>
+        <td colspan="6">Structure</td>
+        <td colspan="2">Semantics</td>
+    </tr>
+    <tr>
+        <td colspan="2">sequence</td>
+        <td colspan="2">selection</td>
+        <td colspan="2">loop</td>
+        <td rowspan="2">data flow</td>
+        <td rowspan="2">control flow</td>
+    </tr>
+    <tr>
+        <td>src</td>
+        <td>exe</td>
+        <td>src</td>
+        <td>exe</td>
+        <td>src</td>
+        <td>exe</td>
+    </tr>
+    <tr>
+        <td>CMT-24d2a418</td>
+        <td>+3</td>
+        <td>+39</td>
+        <td>+0</td>
+        <td>+7</td>
+        <td>+0</td>
+        <td>+2</td>
+        <td>+7</td>
+        <td>+5</td>
+    </tr>
+    <tr>
+        <td>CMT-c380169d</td>
+        <td>+1</td>
+        <td>+5</td>
+        <td>+0</td>
+        <td>+1</td>
+        <td>+0</td>
+        <td>+0</td>
+        <td>+1</td>
+        <td>+0</td>
+    </tr>
+    <tr>
+        <td>CMT-fd6974bb</td>
+        <td>+0</td>
+        <td>+0</td>
+        <td>+0</td>
+        <td>+0</td>
+        <td>+0</td>
+        <td>+0</td>
+        <td>+0</td>
+        <td>+0</td>
+    </tr>
+    <tr>
+        <td>CMT-b204d363</td>
+        <td>+2</td>
+        <td>+2</td>
+        <td>+0</td>
+        <td>+0</td>
+        <td>+0</td>
+        <td>+1</td>
+        <td>+0</td>
+        <td>+0</td>
+    </tr>
+    <tr>
+        <td>CMT-4f6b7384</td>
+        <td>+1</td>
+        <td>+9</td>
+        <td>+1</td>
+        <td>+1</td>
+        <td>+0</td>
+        <td>+0</td>
+        <td>+0</td>
+        <td>+2</td>
+    </tr>
+    <tr>
+        <td>CMT-507e68b6</td>
+        <td>+0</td>
+        <td>+0</td>
+        <td>+0</td>
+        <td>+0</td>
+        <td>+0</td>
+        <td>+0</td>
+        <td>+0</td>
+        <td>+0</td>
+    </tr>
+</table>
 
 ## 4. PSR Contribution
 | ID   | COMMIT                                   | P |  S&emsp;  |  R  | Contribution |
