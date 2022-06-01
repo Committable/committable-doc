@@ -4,7 +4,7 @@
 
    The following table introduces 6 COMMITs (native NFT in Committable) from the dapp-learning project ([https://github.com/Dapp-Learning-DAO/Dapp-Learning.git)](https://github.com/Dapp-Learning-DAO/Dapp-Learning.git).
    
-   | Num  | COMMITs                                  | Description                                            |
+   | ID  | COMMIT                                  | Description                                            |
    | :--: | ---------------------------------------- | ------------------------------------------------------ |
    |  1   | 24d2a418580ca7e8dad292cc0d7dedf0f384e04a | create file increment.sol, implemente basic logic      |
    |  2   | c380169dd489e4bb1986f8690f995fb506086430 | modify increment.sol, add function getNumber           |
