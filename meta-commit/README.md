@@ -176,7 +176,7 @@ Basically, Meta-Commit fields can be grouped into three categories:
     
     - `github.issue.priority`: Issue priority, one of five categories, i.e., `LOW_PLUS`, `LOW`, `MID`, `HIGH`, and `HIGH_PLUS`, e.g., *"LOW_PLUS_"*
     
-    - `github.issue.git_url`: Issue URL as responsed by Github, e.g., *"https://storage.googleapis.com/committable/analysis/e2f53523-ac98-4315-94fa-e35172fb81d0.json"*
+    - `github.issue.git_url`: Issue URL as responsed by Github, e.g., *"https://api.github.com/repos/OpenZeppelin/openzeppelin-contracts/pulls/3380"*
 
 #### Meta-Commit Digest
 
