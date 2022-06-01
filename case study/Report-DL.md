@@ -37,14 +37,14 @@
 ## 3. Meta-Commit Digest
 <table>
     <tr>
-        <td rowspan="3">COMMIT</td>
-        <td colspan="6">Structure</td>
-        <td colspan="2">Semantics</td>
+        <td rowspan="3">&emsp;&emsp;COMMIT</td>
+        <td colspan="6">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Structure</td>
+        <td colspan="2">&emsp;&emsp;&emsp;Semantics</td>
     </tr>
     <tr>
         <td colspan="2">sequence</td>
         <td colspan="2">selection</td>
-        <td colspan="2">loop</td>
+        <td colspan="2">&emsp;loop</td>
         <td rowspan="2">data flow</td>
         <td rowspan="2">control flow</td>
     </tr>
@@ -64,8 +64,8 @@
         <td>+7</td>
         <td>+0</td>
         <td>+2</td>
-        <td>+7</td>
-        <td>+5</td>
+        <td>&emsp;&emsp;+7</td>
+        <td>&emsp;&emsp;+5</td>
     </tr>
     <tr>
         <td>COMMIT-c380169d</td>
@@ -75,8 +75,8 @@
         <td>+1</td>
         <td>+0</td>
         <td>+0</td>
-        <td>+1</td>
-        <td>+0</td>
+        <td>&emsp;&emsp;+1</td>
+        <td>&emsp;&emsp;+0</td>
     </tr>
     <tr>
         <td>COMMIT-fd6974bb</td>
@@ -86,8 +86,8 @@
         <td>+0</td>
         <td>+0</td>
         <td>+0</td>
-        <td>+0</td>
-        <td>+0</td>
+        <td>&emsp;&emsp;+0</td>
+        <td>&emsp;&emsp;+0</td>
     </tr>
     <tr>
         <td>COMMIT-b204d363</td>
@@ -97,8 +97,8 @@
         <td>+0</td>
         <td>+0</td>
         <td>+1</td>
-        <td>+0</td>
-        <td>+0</td>
+        <td>&emsp;&emsp;+0</td>
+        <td>&emsp;&emsp;+0</td>
     </tr>
     <tr>
         <td>COMMIT-4f6b7384</td>
@@ -108,8 +108,8 @@
         <td>+1</td>
         <td>+0</td>
         <td>+0</td>
-        <td>+0</td>
-        <td>+2</td>
+        <td>&emsp;&emsp;+0</td>
+        <td>&emsp;&emsp;+2</td>
     </tr>
     <tr>
         <td>COMMIT-507e68b6</td>
@@ -119,8 +119,8 @@
         <td>+0</td>
         <td>+0</td>
         <td>+0</td>
-        <td>+0</td>
-        <td>+0</td>
+        <td>&emsp;&emsp;+0</td>
+        <td>&emsp;&emsp;+0</td>
     </tr>
 </table>
 
