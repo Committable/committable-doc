@@ -16,8 +16,8 @@
    The evolvement of this project is shown as below.
 
    | <font size=1>Example02-web3js-sendtransaction/Incrementer.sol</font> | <font size=1>Example02-web3js-sendtransaction/Incrementer.sol</font> | <font size=1>Example02-web3js-transaction/Incrementer.sol</font> |
-   | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-   | pragma solidity ^0.8.0;contract Incrementer {<br/>    uint256 public number;<br/>    constructor(uint256 _initialNumber) {<br/>        number = _initialNumber;<br/>    }<br/>    function increment(uint256 _value) public {<br/>        number = number + _value;<br/>    }<br/>    function reset() public {<br/>        number = 0;<br/>    }<br/>}` |                                                              |                                                              |
+   | -------------------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+   | <font color="red">pragma solidity ^</font> 0.8.0;<br/>contract Incrementer {<br/>&emsp;uint256 public number;<br/>&emsp;constructor(uint256 _initialNumber) {<br/>&emsp;&emsp;number = _initialNumber;<br/> &emsp;}<br/>&emsp;function increment(int value) public {<br/>&emsp;&emsp;number = number + value;<br/>&emsp;&emsp;}<br/>&emsp;function reset() public {<br/>&emsp;&emsp;number = 0;<br/>&emsp;&emsp;}<br/>}|                                                              |                                                              |
    | <font size=1>Example02-web3js-transaction/Incrementer.sol</font> | <font size=1>Example02-web3js-transaction/Incrementer.sol</font> | <font size=1>Example02-web3js-transaction/Incrementer.sol</font> |
    |                                                              |                                                              |                                                              |
 
