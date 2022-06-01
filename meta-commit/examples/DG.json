@@ -1,0 +1,2270 @@
+{
+  "ERC1155:supportsInterface": {
+    "nodes": [
+      {
+        "id": "*supportsInterface",
+        "name": "*supportsInterface",
+        "pos": "(99.441, 124.15)",
+        "lines": [
+          
+        ]
+      },
+      {
+        "id": "*BRANCH_5253",
+        "name": "*BRANCH",
+        "pos": "(412.27, 97.152)",
+        "lines": [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ]
+      },
+      {
+        "id": "*BRANCH_5211",
+        "name": "*BRANCH",
+        "pos": "(791.44, 43.152)",
+        "lines": [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ]
+      },
+      {
+        "id": "*BRANCH_769",
+        "name": "*BRANCH",
+        "pos": "(1110.4, 87.152)",
+        "lines": [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ]
+      },
+      {
+        "id": "*BRANCH_873",
+        "name": "*BRANCH",
+        "pos": "(1400.5, 102.15)",
+        "lines": [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ]
+      },
+      {
+        "id": "BRANCH_873",
+        "name": "BRANCH",
+        "pos": "(1400.5, 33.152)",
+        "lines": [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ]
+      },
+      {
+        "id": "BRANCH_769",
+        "name": "BRANCH",
+        "pos": "(1110.4, 33.152)",
+        "lines": [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ]
+      },
+      {
+        "id": "BRANCH_5211",
+        "name": "BRANCH",
+        "pos": "(791.44, 97.152)",
+        "lines": [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ]
+      },
+      {
+        "id": "REVERT",
+        "name": "REVERT",
+        "pos": "(1110.4, 146.15)",
+        "lines": [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ]
+      },
+      {
+        "id": "BRANCH_5253",
+        "name": "BRANCH",
+        "pos": "(601.86, 149.15)",
+        "lines": [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ]
+      },
+      {
+        "id": "REVERT",
+        "name": "REVERT",
+        "pos": "(1110.4, 146.15)",
+        "lines": [
+          
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "*supportsInterface",
+        "target": "*BRANCH_5253",
+        "type": "control_flow"
+      },
+      {
+        "source": "*supportsInterface",
+        "target": "BRANCH_5253",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_5253",
+        "target": "*BRANCH_5211",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_5253",
+        "target": "BRANCH_5211",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_5211",
+        "target": "*BRANCH_769",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_5211",
+        "target": "BRANCH_769",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_769",
+        "target": "*BRANCH_873",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_769",
+        "target": "BRANCH_873",
+        "type": "control_flow"
+      },
+      {
+        "source": "BRANCH_769",
+        "target": "*BRANCH_873",
+        "type": "control_flow"
+      },
+      {
+        "source": "BRANCH_769",
+        "target": "BRANCH_873",
+        "type": "control_flow"
+      },
+      {
+        "source": "BRANCH_5211",
+        "target": "REVERT",
+        "type": "constraint_flow"
+      },
+      {
+        "source": "BRANCH_5253",
+        "target": "REVERT",
+        "type": "constraint_flow"
+      }
+    ]
+  },
+  "ERC1155:uri": {
+    "nodes": [
+      {
+        "id": "*uri",
+        "name": "*uri",
+        "pos": "(28.597, 37.0)",
+        "lines": [
+          
+        ]
+      },
+      {
+        "id": "*BRANCH_5352",
+        "name": "*BRANCH",
+        "pos": "(270.59, 64.0)",
+        "lines": [
+          59,
+          60,
+          61
+        ]
+      },
+      {
+        "id": "*BRANCH_5017",
+        "name": "*BRANCH",
+        "pos": "(649.76, 79.0)",
+        "lines": [
+          
+        ]
+      },
+      {
+        "id": "Read::return _uri",
+        "name": "Read::return ",
+        "pos": "(2234.6, 482.0)",
+        "lines": [
+          60
+        ]
+      },
+      {
+        "id": "2",
+        "name": "2",
+        "pos": "(1912.4, 616.0)",
+        "lines": [
+          59,
+          60,
+          61
+        ]
+      },
+      {
+        "id": "*BRANCH_7359",
+        "name": "*BRANCH",
+        "pos": "(951.54, 123.0)",
+        "lines": [
+          59,
+          60,
+          61
+        ]
+      },
+      {
+        "id": "*BRANCH_7377",
+        "name": "*BRANCH",
+        "pos": "(1272.8, 170.0)",
+        "lines": [
+          59,
+          60,
+          61
+        ]
+      },
+      {
+        "id": "*return _uri",
+        "name": "*return ",
+        "pos": "(1912.4, 350.0)",
+        "lines": [
+          60
+        ]
+      },
+      {
+        "id": "*BRANCH_5423",
+        "name": "*BRANCH",
+        "pos": "(2539.0, 210.0)",
+        "lines": [
+          59,
+          60,
+          61
+        ]
+      },
+      {
+        "id": "*BRANCH_5450",
+        "name": "*BRANCH",
+        "pos": "(2840.7, 237.0)",
+        "lines": [
+          59,
+          60,
+          61
+        ]
+      },
+      {
+        "id": "BRANCH_5423",
+        "name": "BRANCH",
+        "pos": "(2234.6, 240.0)",
+        "lines": [
+          59,
+          60,
+          61
+        ]
+      },
+      {
+        "id": "BRANCH_5450",
+        "name": "BRANCH",
+        "pos": "(2840.7, 183.0)",
+        "lines": [
+          59,
+          60,
+          61
+        ]
+      },
+      {
+        "id": "return _uri",
+        "name": "return ",
+        "pos": "(1616.5, 239.0)",
+        "lines": [
+          60
+        ]
+      },
+      {
+        "id": "*return _uri",
+        "name": "*return ",
+        "pos": "(1912.4, 350.0)",
+        "lines": [
+          60
+        ]
+      },
+      {
+        "id": "Read::return _uri",
+        "name": "Read::return ",
+        "pos": "(2234.6, 482.0)",
+        "lines": [
+          60
+        ]
+      },
+      {
+        "id": "SHA_return _uri",
+        "name": "SHA",
+        "pos": "(1616.5, 562.0)",
+        "lines": [
+          60
+        ]
+      },
+      {
+        "id": "VariableNode_16715",
+        "name": "VariableNode",
+        "pos": "(1272.8, 562.0)",
+        "lines": [
+          59,
+          60,
+          61
+        ]
+      },
+      {
+        "id": "*return _uri",
+        "name": "*return ",
+        "pos": "(1912.4, 350.0)",
+        "lines": [
+          60
+        ]
+      },
+      {
+        "id": "Read::return _uri",
+        "name": "Read::return ",
+        "pos": "(2234.6, 482.0)",
+        "lines": [
+          60
+        ]
+      },
+      {
+        "id": "EXPR_16721",
+        "name": "EXPR",
+        "pos": "(1912.4, 562.0)",
+        "lines": [
+          59,
+          60,
+          61
+        ]
+      },
+      {
+        "id": "Read::return _uri",
+        "name": "Read::return ",
+        "pos": "(2234.6, 482.0)",
+        "lines": [
+          60
+        ]
+      },
+      {
+        "id": "EXPR_16726",
+        "name": "EXPR",
+        "pos": "(1912.4, 508.0)",
+        "lines": [
+          59,
+          60,
+          61
+        ]
+      },
+      {
+        "id": "return _uri",
+        "name": "return ",
+        "pos": "(1616.5, 239.0)",
+        "lines": [
+          60
+        ]
+      },
+      {
+        "id": "return _uri",
+        "name": "return ",
+        "pos": "(1616.5, 239.0)",
+        "lines": [
+          60
+        ]
+      },
+      {
+        "id": "BRANCH_7377",
+        "name": "BRANCH",
+        "pos": "(1912.4, 86.0)",
+        "lines": [
+          59,
+          60,
+          61
+        ]
+      },
+      {
+        "id": "REVERT",
+        "name": "REVERT",
+        "pos": "(2234.6, 52.0)",
+        "lines": [
+          59,
+          60,
+          61
+        ]
+      },
+      {
+        "id": "BRANCH_7359",
+        "name": "BRANCH",
+        "pos": "(1616.5, 132.0)",
+        "lines": [
+          59,
+          60,
+          61
+        ]
+      },
+      {
+        "id": "BRANCH_5352",
+        "name": "BRANCH",
+        "pos": "(460.17, 18.0)",
+        "lines": [
+          59,
+          60,
+          61
+        ]
+      },
+      {
+        "id": "REVERT",
+        "name": "REVERT",
+        "pos": "(2234.6, 52.0)",
+        "lines": [
+          
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "*uri",
+        "target": "*BRANCH_5352",
+        "type": "control_flow"
+      },
+      {
+        "source": "*uri",
+        "target": "BRANCH_5352",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_5352",
+        "target": "*BRANCH_5017",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_5017",
+        "target": "Read::return _uri",
+        "type": "constraint_flow"
+      },
+      {
+        "source": "*BRANCH_5017",
+        "target": "*BRANCH_7359",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_5017",
+        "target": "BRANCH_7359",
+        "type": "control_flow"
+      },
+      {
+        "source": "2",
+        "target": "Read::return _uri",
+        "type": "value_flow"
+      },
+      {
+        "source": "*BRANCH_7359",
+        "target": "*BRANCH_7377",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_7359",
+        "target": "BRANCH_7377",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_7377",
+        "target": "*BRANCH_7359",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_7377",
+        "target": "*return _uri",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_7377",
+        "target": "return _uri",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_7377",
+        "target": "BRANCH_7359",
+        "type": "control_flow"
+      },
+      {
+        "source": "*return _uri",
+        "target": "*BRANCH_5423",
+        "type": "control_flow"
+      },
+      {
+        "source": "*return _uri",
+        "target": "BRANCH_5423",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_5423",
+        "target": "*BRANCH_5450",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_5423",
+        "target": "BRANCH_5450",
+        "type": "control_flow"
+      },
+      {
+        "source": "BRANCH_5423",
+        "target": "*BRANCH_5423",
+        "type": "control_flow"
+      },
+      {
+        "source": "BRANCH_5423",
+        "target": "BRANCH_5423",
+        "type": "control_flow"
+      },
+      {
+        "source": "return _uri",
+        "target": "*return _uri",
+        "type": "control_flow"
+      },
+      {
+        "source": "return _uri",
+        "target": "return _uri",
+        "type": "control_flow"
+      },
+      {
+        "source": "*return _uri",
+        "target": "Read::return _uri",
+        "type": "constraint_flow"
+      },
+      {
+        "source": "*return _uri",
+        "target": "*return _uri",
+        "type": "control_flow"
+      },
+      {
+        "source": "*return _uri",
+        "target": "return _uri",
+        "type": "control_flow"
+      },
+      {
+        "source": "SHA_return _uri",
+        "target": "Read::return _uri",
+        "type": "value_flow"
+      },
+      {
+        "source": "SHA_return _uri",
+        "target": "EXPR_16721",
+        "type": "value_flow"
+      },
+      {
+        "source": "SHA_return _uri",
+        "target": "EXPR_16726",
+        "type": "value_flow"
+      },
+      {
+        "source": "VariableNode_16715",
+        "target": "SHA_return _uri",
+        "type": "value_flow"
+      },
+      {
+        "source": "*return _uri",
+        "target": "Read::return _uri",
+        "type": "constraint_flow"
+      },
+      {
+        "source": "*return _uri",
+        "target": "*return _uri",
+        "type": "control_flow"
+      },
+      {
+        "source": "*return _uri",
+        "target": "Read::return _uri",
+        "type": "constraint_flow"
+      },
+      {
+        "source": "*return _uri",
+        "target": "return _uri",
+        "type": "control_flow"
+      },
+      {
+        "source": "EXPR_16721",
+        "target": "Read::return _uri",
+        "type": "value_flow"
+      },
+      {
+        "source": "EXPR_16726",
+        "target": "Read::return _uri",
+        "type": "value_flow"
+      },
+      {
+        "source": "return _uri",
+        "target": "*BRANCH_5423",
+        "type": "control_flow"
+      },
+      {
+        "source": "return _uri",
+        "target": "BRANCH_5423",
+        "type": "control_flow"
+      },
+      {
+        "source": "return _uri",
+        "target": "*BRANCH_5423",
+        "type": "control_flow"
+      },
+      {
+        "source": "return _uri",
+        "target": "BRANCH_5423",
+        "type": "control_flow"
+      },
+      {
+        "source": "BRANCH_7377",
+        "target": "REVERT",
+        "type": "constraint_flow"
+      },
+      {
+        "source": "BRANCH_7359",
+        "target": "*BRANCH_7377",
+        "type": "control_flow"
+      },
+      {
+        "source": "BRANCH_7359",
+        "target": "BRANCH_7377",
+        "type": "control_flow"
+      },
+      {
+        "source": "BRANCH_5352",
+        "target": "REVERT",
+        "type": "constraint_flow"
+      }
+    ]
+  },
+  "ERC1155:safeBatchTransferFrom": {
+    "nodes": [
+      {
+        "id": "*safeBatchTransferFrom",
+        "name": "*safeBatchTransferFrom",
+        "pos": "(126.74, 390.38)",
+        "lines": [
+          
+        ]
+      },
+      {
+        "id": "*BRANCH_6099",
+        "name": "*BRANCH",
+        "pos": "(466.87, 352.38)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "*BRANCH_4963",
+        "name": "*BRANCH",
+        "pos": "(846.04, 352.38)",
+        "lines": [
+          
+        ]
+      },
+      {
+        "id": "*BRANCH_6163",
+        "name": "*BRANCH",
+        "pos": "(1147.8, 339.38)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "*BRANCH_5865",
+        "name": "*BRANCH",
+        "pos": "(1527.0, 339.38)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "*BRANCH_5717",
+        "name": "*BRANCH",
+        "pos": "(1828.8, 339.38)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "*BRANCH_5654",
+        "name": "*BRANCH",
+        "pos": "(2207.9, 325.38)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "*BRANCH_5793",
+        "name": "*BRANCH",
+        "pos": "(2587.1, 264.38)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "*BRANCH_5812",
+        "name": "*BRANCH",
+        "pos": "(3605.5, 203.38)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "*BRANCH_6208",
+        "name": "*BRANCH",
+        "pos": "(3930.2, 98.377)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "*BRANCH_6253",
+        "name": "*BRANCH",
+        "pos": "(3930.2, 249.38)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "*BRANCH_6046",
+        "name": "*BRANCH",
+        "pos": "(4309.4, 236.38)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "*BRANCH_5922",
+        "name": "*BRANCH",
+        "pos": "(4688.6, 182.38)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "BRANCH_5922",
+        "name": "BRANCH",
+        "pos": "(4688.6, 236.38)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "REVERT",
+        "name": "REVERT",
+        "pos": "(4976.3, 290.38)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "BRANCH_6046",
+        "name": "BRANCH",
+        "pos": "(4499.0, 288.38)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "REVERT",
+        "name": "REVERT",
+        "pos": "(4976.3, 290.38)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "BRANCH_6253",
+        "name": "BRANCH",
+        "pos": "(4119.8, 194.38)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "REVERT",
+        "name": "REVERT",
+        "pos": "(4976.3, 290.38)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "BRANCH_5812",
+        "name": "BRANCH",
+        "pos": "(2961.1, 264.38)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "*BRANCH_5017",
+        "name": "*BRANCH",
+        "pos": "(3280.7, 249.38)",
+        "lines": [
+          
+        ]
+      },
+      {
+        "id": "BRANCH_5793",
+        "name": "BRANCH",
+        "pos": "(2776.7, 325.38)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "REVERT",
+        "name": "REVERT",
+        "pos": "(4976.3, 290.38)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "BRANCH_5654",
+        "name": "BRANCH",
+        "pos": "(2397.5, 371.38)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "BRANCH_5717",
+        "name": "BRANCH",
+        "pos": "(2018.4, 412.38)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "BRANCH_5865",
+        "name": "BRANCH",
+        "pos": "(4309.4, 52.377)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "BRANCH_6208",
+        "name": "BRANCH",
+        "pos": "(4119.8, 142.38)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "BRANCH_6163",
+        "name": "BRANCH",
+        "pos": "(1337.4, 436.38)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "BRANCH_4963",
+        "name": "BRANCH",
+        "pos": "(1147.8, 281.38)",
+        "lines": [
+          
+        ]
+      },
+      {
+        "id": "REVERT",
+        "name": "REVERT",
+        "pos": "(4976.3, 290.38)",
+        "lines": [
+          
+        ]
+      },
+      {
+        "id": "BRANCH_6099",
+        "name": "BRANCH",
+        "pos": "(656.45, 442.38)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "REVERT",
+        "name": "REVERT",
+        "pos": "(4976.3, 290.38)",
+        "lines": [
+          
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "*safeBatchTransferFrom",
+        "target": "*BRANCH_6099",
+        "type": "control_flow"
+      },
+      {
+        "source": "*safeBatchTransferFrom",
+        "target": "BRANCH_6099",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_6099",
+        "target": "*BRANCH_4963",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_6099",
+        "target": "BRANCH_4963",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_4963",
+        "target": "*BRANCH_4963",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_4963",
+        "target": "*BRANCH_6163",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_4963",
+        "target": "BRANCH_6163",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_4963",
+        "target": "BRANCH_4963",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_6163",
+        "target": "*BRANCH_5865",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_6163",
+        "target": "BRANCH_5865",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_5865",
+        "target": "*BRANCH_5717",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_5865",
+        "target": "BRANCH_5717",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_5717",
+        "target": "*BRANCH_5654",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_5717",
+        "target": "BRANCH_5654",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_5654",
+        "target": "*BRANCH_5793",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_5654",
+        "target": "BRANCH_5793",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_5793",
+        "target": "*BRANCH_5812",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_5793",
+        "target": "BRANCH_5812",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_5812",
+        "target": "*BRANCH_6208",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_5812",
+        "target": "*BRANCH_6253",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_5812",
+        "target": "BRANCH_6253",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_5812",
+        "target": "BRANCH_6208",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_6208",
+        "target": "*BRANCH_5865",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_6208",
+        "target": "BRANCH_5865",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_6253",
+        "target": "*BRANCH_6046",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_6253",
+        "target": "BRANCH_6046",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_6046",
+        "target": "*BRANCH_5922",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_6046",
+        "target": "BRANCH_5922",
+        "type": "control_flow"
+      },
+      {
+        "source": "BRANCH_5922",
+        "target": "REVERT",
+        "type": "constraint_flow"
+      },
+      {
+        "source": "BRANCH_6046",
+        "target": "REVERT",
+        "type": "constraint_flow"
+      },
+      {
+        "source": "BRANCH_6253",
+        "target": "REVERT",
+        "type": "constraint_flow"
+      },
+      {
+        "source": "BRANCH_5812",
+        "target": "*BRANCH_5017",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_5017",
+        "target": "*BRANCH_5812",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_5017",
+        "target": "BRANCH_5812",
+        "type": "control_flow"
+      },
+      {
+        "source": "BRANCH_5793",
+        "target": "REVERT",
+        "type": "constraint_flow"
+      },
+      {
+        "source": "BRANCH_5654",
+        "target": "REVERT",
+        "type": "constraint_flow"
+      },
+      {
+        "source": "BRANCH_5717",
+        "target": "REVERT",
+        "type": "constraint_flow"
+      },
+      {
+        "source": "BRANCH_5865",
+        "target": "REVERT",
+        "type": "constraint_flow"
+      },
+      {
+        "source": "BRANCH_6208",
+        "target": "REVERT",
+        "type": "constraint_flow"
+      },
+      {
+        "source": "BRANCH_6163",
+        "target": "REVERT",
+        "type": "constraint_flow"
+      },
+      {
+        "source": "BRANCH_4963",
+        "target": "REVERT",
+        "type": "constraint_flow"
+      },
+      {
+        "source": "BRANCH_6099",
+        "target": "REVERT",
+        "type": "constraint_flow"
+      }
+    ]
+  },
+  "ERC1155:balanceOfBatch": {
+    "nodes": [
+      {
+        "id": "*balanceOfBatch",
+        "name": "*balanceOfBatch",
+        "pos": "(90.342, 37.0)",
+        "lines": [
+          
+        ]
+      },
+      {
+        "id": "*BRANCH_6496",
+        "name": "*BRANCH",
+        "pos": "(394.08, 64.0)",
+        "lines": [
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98
+        ]
+      },
+      {
+        "id": "*BRANCH_6526",
+        "name": "*BRANCH",
+        "pos": "(773.25, 107.0)",
+        "lines": [
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98
+        ]
+      },
+      {
+        "id": "*BRANCH_6448",
+        "name": "*BRANCH",
+        "pos": "(1152.4, 158.0)",
+        "lines": [
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98
+        ]
+      },
+      {
+        "id": "*BRANCH_6305",
+        "name": "*BRANCH",
+        "pos": "(1531.6, 212.0)",
+        "lines": [
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98
+        ]
+      },
+      {
+        "id": "BRANCH_6305",
+        "name": "BRANCH",
+        "pos": "(1531.6, 158.0)",
+        "lines": [
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98
+        ]
+      },
+      {
+        "id": "REVERT",
+        "name": "REVERT",
+        "pos": "(1819.3, 84.0)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "BRANCH_6448",
+        "name": "BRANCH",
+        "pos": "(1342.0, 107.0)",
+        "lines": [
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98
+        ]
+      },
+      {
+        "id": "REVERT",
+        "name": "REVERT",
+        "pos": "(1819.3, 84.0)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "BRANCH_6526",
+        "name": "BRANCH",
+        "pos": "(962.83, 61.0)",
+        "lines": [
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98
+        ]
+      },
+      {
+        "id": "REVERT",
+        "name": "REVERT",
+        "pos": "(1819.3, 84.0)",
+        "lines": [
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      },
+      {
+        "id": "BRANCH_6496",
+        "name": "BRANCH",
+        "pos": "(583.66, 18.0)",
+        "lines": [
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98
+        ]
+      },
+      {
+        "id": "REVERT",
+        "name": "REVERT",
+        "pos": "(1819.3, 84.0)",
+        "lines": [
+          
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "*balanceOfBatch",
+        "target": "*BRANCH_6496",
+        "type": "control_flow"
+      },
+      {
+        "source": "*balanceOfBatch",
+        "target": "BRANCH_6496",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_6496",
+        "target": "*BRANCH_6526",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_6496",
+        "target": "BRANCH_6526",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_6526",
+        "target": "*BRANCH_6448",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_6526",
+        "target": "BRANCH_6448",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_6448",
+        "target": "*BRANCH_6305",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_6448",
+        "target": "BRANCH_6305",
+        "type": "control_flow"
+      },
+      {
+        "source": "BRANCH_6305",
+        "target": "REVERT",
+        "type": "constraint_flow"
+      },
+      {
+        "source": "BRANCH_6448",
+        "target": "REVERT",
+        "type": "constraint_flow"
+      },
+      {
+        "source": "BRANCH_6526",
+        "target": "REVERT",
+        "type": "constraint_flow"
+      },
+      {
+        "source": "BRANCH_6496",
+        "target": "REVERT",
+        "type": "constraint_flow"
+      }
+    ]
+  },
+  "ERC1155:setApprovalForAll": {
+    "nodes": [
+      {
+        "id": "*setApprovalForAll",
+        "name": "*setApprovalForAll",
+        "pos": "(100.09, 37.0)",
+        "lines": [
+          
+        ]
+      },
+      {
+        "id": "*BRANCH_6884",
+        "name": "*BRANCH",
+        "pos": "(413.57, 64.0)",
+        "lines": [
+          103,
+          104,
+          105
+        ]
+      },
+      {
+        "id": "*BRANCH_4963",
+        "name": "*BRANCH",
+        "pos": "(792.74, 116.0)",
+        "lines": [
+          
+        ]
+      },
+      {
+        "id": "*BRANCH_6841",
+        "name": "*BRANCH",
+        "pos": "(1248.0, 116.0)",
+        "lines": [
+          103,
+          104,
+          105
+        ]
+      },
+      {
+        "id": "*require(owner != operator, \"ERC1155: setting approval status for self\")",
+        "name": "*require(owner != operator, \"ERC1155: setting approval status for self\")",
+        "pos": "(1965.1, 212.0)",
+        "lines": [
+          404
+        ]
+      },
+      {
+        "id": "Read::_operatorApprovals[owner][operator] = approved",
+        "name": "Read::",
+        "pos": "(2734.4, 299.0)",
+        "lines": [
+          405
+        ]
+      },
+      {
+        "id": "SHA__operatorApprovals[owner][operator]",
+        "name": "SHA",
+        "pos": "(1965.1, 330.0)",
+        "lines": [
+          405
+        ]
+      },
+      {
+        "id": "Input_4_35",
+        "name": "Input",
+        "pos": "(1248.0, 307.0)",
+        "lines": [
+          103,
+          104,
+          105
+        ]
+      },
+      {
+        "id": "SHA__operatorApprovals[owner]",
+        "name": "SHA",
+        "pos": "(1248.0, 361.0)",
+        "lines": [
+          405
+        ]
+      },
+      {
+        "id": "msg.sender",
+        "name": "msg.sender",
+        "pos": "(792.74, 361.0)",
+        "lines": [
+          
+        ]
+      },
+      {
+        "id": "Write::_operatorApprovals[owner][operator] = approved",
+        "name": "Write::",
+        "pos": "(3682.1, 272.0)",
+        "lines": [
+          405
+        ]
+      },
+      {
+        "id": "EXPR_17506",
+        "name": "EXPR",
+        "pos": "(3225.0, 272.0)",
+        "lines": [
+          103,
+          104,
+          105
+        ]
+      },
+      {
+        "id": "Input_36_67",
+        "name": "Input",
+        "pos": "(2734.4, 245.0)",
+        "lines": [
+          103,
+          104,
+          105
+        ]
+      },
+      {
+        "id": "require(owner != operator, \"ERC1155: setting approval status for self\")",
+        "name": "require(owner != operator, \"ERC1155: setting approval status for self\")",
+        "pos": "(1965.1, 107.0)",
+        "lines": [
+          404
+        ]
+      },
+      {
+        "id": "REVERT",
+        "name": "REVERT",
+        "pos": "(2734.4, 81.0)",
+        "lines": [
+          404
+        ]
+      },
+      {
+        "id": "BRANCH_6841",
+        "name": "BRANCH",
+        "pos": "(1513.6, 179.0)",
+        "lines": [
+          103,
+          104,
+          105
+        ]
+      },
+      {
+        "id": "REVERT",
+        "name": "REVERT",
+        "pos": "(2734.4, 81.0)",
+        "lines": [
+          103,
+          104,
+          105
+        ]
+      },
+      {
+        "id": "BRANCH_4963",
+        "name": "BRANCH",
+        "pos": "(982.33, 62.0)",
+        "lines": [
+          
+        ]
+      },
+      {
+        "id": "REVERT",
+        "name": "REVERT",
+        "pos": "(2734.4, 81.0)",
+        "lines": [
+          
+        ]
+      },
+      {
+        "id": "BRANCH_6884",
+        "name": "BRANCH",
+        "pos": "(603.16, 18.0)",
+        "lines": [
+          103,
+          104,
+          105
+        ]
+      },
+      {
+        "id": "REVERT",
+        "name": "REVERT",
+        "pos": "(2734.4, 81.0)",
+        "lines": [
+          
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "*setApprovalForAll",
+        "target": "*BRANCH_6884",
+        "type": "control_flow"
+      },
+      {
+        "source": "*setApprovalForAll",
+        "target": "BRANCH_6884",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_6884",
+        "target": "*BRANCH_4963",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_6884",
+        "target": "BRANCH_4963",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_4963",
+        "target": "*BRANCH_6841",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_4963",
+        "target": "BRANCH_6841",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_6841",
+        "target": "*require(owner != operator, \"ERC1155: setting approval status for self\")",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_6841",
+        "target": "require(owner != operator, \"ERC1155: setting approval status for self\")",
+        "type": "control_flow"
+      },
+      {
+        "source": "*require(owner != operator, \"ERC1155: setting approval status for self\")",
+        "target": "Read::_operatorApprovals[owner][operator] = approved",
+        "type": "constraint_flow"
+      },
+      {
+        "source": "*require(owner != operator, \"ERC1155: setting approval status for self\")",
+        "target": "Write::_operatorApprovals[owner][operator] = approved",
+        "type": "constraint_flow"
+      },
+      {
+        "source": "Read::_operatorApprovals[owner][operator] = approved",
+        "target": "EXPR_17506",
+        "type": "value_flow"
+      },
+      {
+        "source": "SHA__operatorApprovals[owner][operator]",
+        "target": "Read::_operatorApprovals[owner][operator] = approved",
+        "type": "value_flow"
+      },
+      {
+        "source": "SHA__operatorApprovals[owner][operator]",
+        "target": "Write::_operatorApprovals[owner][operator] = approved",
+        "type": "value_flow"
+      },
+      {
+        "source": "Input_4_35",
+        "target": "SHA__operatorApprovals[owner][operator]",
+        "type": "value_flow"
+      },
+      {
+        "source": "SHA__operatorApprovals[owner]",
+        "target": "SHA__operatorApprovals[owner][operator]",
+        "type": "value_flow"
+      },
+      {
+        "source": "msg.sender",
+        "target": "SHA__operatorApprovals[owner]",
+        "type": "value_flow"
+      },
+      {
+        "source": "EXPR_17506",
+        "target": "Write::_operatorApprovals[owner][operator] = approved",
+        "type": "value_flow"
+      },
+      {
+        "source": "Input_36_67",
+        "target": "EXPR_17506",
+        "type": "value_flow"
+      },
+      {
+        "source": "require(owner != operator, \"ERC1155: setting approval status for self\")",
+        "target": "REVERT",
+        "type": "constraint_flow"
+      },
+      {
+        "source": "BRANCH_6841",
+        "target": "REVERT",
+        "type": "constraint_flow"
+      },
+      {
+        "source": "BRANCH_4963",
+        "target": "REVERT",
+        "type": "constraint_flow"
+      },
+      {
+        "source": "BRANCH_6884",
+        "target": "REVERT",
+        "type": "constraint_flow"
+      }
+    ]
+  },
+  "ERC1155:isApprovedForAll": {
+    "nodes": [
+      {
+        "id": "*isApprovedForAll",
+        "name": "*isApprovedForAll",
+        "pos": "(96.841, 39.0)",
+        "lines": [
+          
+        ]
+      },
+      {
+        "id": "*BRANCH_6948",
+        "name": "*BRANCH",
+        "pos": "(407.07, 67.0)",
+        "lines": [
+          110,
+          111,
+          112
+        ]
+      },
+      {
+        "id": "*BRANCH_4963",
+        "name": "*BRANCH",
+        "pos": "(786.24, 121.0)",
+        "lines": [
+          
+        ]
+      },
+      {
+        "id": "BRANCH_4963",
+        "name": "BRANCH",
+        "pos": "(786.24, 67.0)",
+        "lines": [
+          
+        ]
+      },
+      {
+        "id": "REVERT",
+        "name": "REVERT",
+        "pos": "(1074.0, 32.0)",
+        "lines": [
+          
+        ]
+      },
+      {
+        "id": "BRANCH_6948",
+        "name": "BRANCH",
+        "pos": "(596.66, 18.0)",
+        "lines": [
+          110,
+          111,
+          112
+        ]
+      },
+      {
+        "id": "REVERT",
+        "name": "REVERT",
+        "pos": "(1074.0, 32.0)",
+        "lines": [
+          
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "*isApprovedForAll",
+        "target": "*BRANCH_6948",
+        "type": "control_flow"
+      },
+      {
+        "source": "*isApprovedForAll",
+        "target": "BRANCH_6948",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_6948",
+        "target": "*BRANCH_4963",
+        "type": "control_flow"
+      },
+      {
+        "source": "*BRANCH_6948",
+        "target": "BRANCH_4963",
+        "type": "control_flow"
+      },
+      {
+        "source": "BRANCH_4963",
+        "target": "REVERT",
+        "type": "constraint_flow"
+      },
+      {
+        "source": "BRANCH_6948",
+        "target": "REVERT",
+        "type": "constraint_flow"
+      }
+    ]
+  },
+  "ERC1155:safeTransferFrom": {
+    "nodes": [
+      {
+        "id": "*safeTransferFrom",
+        "name": "*safeTransferFrom",
+        "pos": "(99.441, 45.0)",
+        "lines": [
+          
+        ]
+      },
+      {
+        "id": "*BRANCH_7017",
+        "name": "*BRANCH",
+        "pos": "(412.27, 72.0)",
+        "lines": [
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129
+        ]
+      },
+      {
+        "id": "BRANCH_7017",
+        "name": "BRANCH",
+        "pos": "(412.27, 18.0)",
+        "lines": [
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129
+        ]
+      },
+      {
+        "id": "REVERT",
+        "name": "REVERT",
+        "pos": "(700.01, 18.0)",
+        "lines": [
+          
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "*safeTransferFrom",
+        "target": "*BRANCH_7017",
+        "type": "control_flow"
+      },
+      {
+        "source": "*safeTransferFrom",
+        "target": "BRANCH_7017",
+        "type": "control_flow"
+      },
+      {
+        "source": "BRANCH_7017",
+        "target": "REVERT",
+        "type": "constraint_flow"
+      }
+    ]
+  }
+}
