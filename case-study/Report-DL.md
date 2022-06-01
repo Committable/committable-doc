@@ -28,8 +28,11 @@
 
 ## 2. Development
 ### 2.1. Structure: Abstract Syntax Tree (AST)
+![](./img/ast.png)
 ### 2.2 Structure: Control Flow Graph (CFG)
+![](./img/cfg.png)
 ### 2.3 Semantics: Dependency Graph (DG)
+![](./img/ssg.png)
 
 ## 3. Meta-Commit Digest
 <table>
