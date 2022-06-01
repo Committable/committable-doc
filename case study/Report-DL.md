@@ -133,7 +133,7 @@
 | 5    | 4f6b73844dea1b07a6ddb509a21eab9635fad032 | Mid  | 0.19 |  1.0 |        94.74 |
 | 6    | 507e68b6bebdb19569928a1e453e4138f1a7df4f | Low  | 0.11 |  1.0 |        54.41 |
 
-;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;table4: PSR contribution of COMMITs<br/><br/><br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;table4: PSR contribution of COMMITs<br/><br/><br/>
 
 | ID   | COMMIT                                   | PSR Contribution | Manual Evaluation |
 | ---- | ---------------------------------------- | -----------: | :-----------: |
@@ -144,7 +144,7 @@
 | 5    | 4f6b73844dea1b07a6ddb509a21eab9635fad032 |        94.74 | 3 |
 | 6    | 507e68b6bebdb19569928a1e453e4138f1a7df4f |        54.41 | 1 |
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;table5: compare of PSR Contribution and Manual Evaluation<br/><br/><br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;table5: compare of PSR Contribution and Manual Evaluation<br/>
 
 &emsp;&emsp;Manual scoring gives scores from a professional perspective based on the specific content of the commit considering difficulty, workload, innovation, etc. The results show that the PSR score is basically highly linearly correlated with manual scoring, and the correlation coefficients of Spearman and Kendall reach 0.97 and 0.93.
 The highest rated commit 24d2a4, as a major code work, has more workload and difficulty than others. It’s meta-commit is shown as above that its Structural Feature and Semantic Feature are larger than others, so the score is high.
