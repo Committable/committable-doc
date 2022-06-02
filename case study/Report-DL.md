@@ -1,6 +1,6 @@
 # Case Study: Dapp-Learning
 
-## 1. COMMITs
+## I. COMMITs
 
    The following table introduces 6 COMMITs (native NFT in Committable) from the dapp-learning project ([https://github.com/Dapp-Learning-DAO/Dapp-Learning.git)](https://github.com/Dapp-Learning-DAO/Dapp-Learning.git).
    
@@ -14,7 +14,7 @@
    |  6   | 507e68b6bebdb19569928a1e453e4138f1a7df4f | modify increment.sol，add a comment                    |
    
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;table1: description of COMMITs<br/><br/><br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Table1. description of COMMITs<br/><br/><br/>
    
    The evolvement of this project is shown as below.
 
@@ -24,17 +24,18 @@
    | <font size=1>Example02-web3js-transaction/Incrementer.sol</font> | <font size=1>Example02-web3js-transaction/Incrementer.sol</font> | <font size=1>Example02-web3js-transaction/Incrementer.sol</font> |
    |                                 // SPDX-License-Identifier:  MIT<br/> pragma solidity ^0.8.0;<br/>contract Incrementer {<br/>&emsp;uint public number;<br/>&emsp;event Increment(uint256 value);<br/>&emsp;event Reset();<br/>&emsp;constructor(uint initial) {<br/>&emsp;&emsp;number = initial;<br/> &emsp;}<br/>&emsp;function incre(uint value) public {<br/>&emsp;&emsp;require(value > 0,  "be positive");<br/>&emsp;&emsp;number = number + value;<br/>&emsp;&emsp;emit Increment(_value);<br/>&emsp;&emsp;}<br/>&emsp;function reset() public {<br/>&emsp;&emsp;number = 0;<br/>&emsp;&emsp;emit Reset();<br/>&emsp;&emsp;}<br/>&emsp;function getNum() public { <br/>&emsp;&emsp;return number;<br/>&emsp;}<br/>}                            |            pragma solidity ^0.8.0;<br/>contract Incrementer {<br/>&emsp;uint public number;<br/>&emsp;event Increment(uint256 value);<br/>&emsp;event Reset();<br/>&emsp;constructor(uint initial) {<br/>&emsp;&emsp;number = initial;<br/> &emsp;}<br/>&emsp;function incre(uint value) public {<br/>&emsp;&emsp;require(value > 0,  "be positive");<br/>&emsp;&emsp;number = number + value;<br/>&emsp;&emsp;emit Increment(_value);<br/>&emsp;&emsp;}<br/>&emsp;function reset() public {<br/>&emsp;&emsp;number = 0;<br/>&emsp;&emsp;emit Reset();<br/>&emsp;&emsp;}<br/>&emsp;function getNum() public { <br/>&emsp;&emsp;return number;<br/>&emsp;}<br/>}                                                  |                  pragma solidity ^0.8.0;<br/>contract Incrementer {<br/>&emsp;uint public number;<br/>&emsp;event Increment(uint256 value);<br/>&emsp;event Reset();<br/>&emsp;constructor(uint initial) {<br/>&emsp;&emsp;number = initial;<br/> &emsp;}<br/>&emsp;function incre(uint value) public {<br/>&emsp;&emsp;number = number + value;<br/>&emsp;&emsp;emit Increment(_value);<br/>&emsp;&emsp;}<br/>&emsp;function reset() public {<br/>&emsp;&emsp;number = 0;<br/>&emsp;&emsp;emit Reset();<br/>&emsp;&emsp;}<br/>&emsp;function getNum() public { <br/>&emsp;&emsp;return number;<br/>&emsp;}<br/>}                                            | 
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;table2: code evolvement of COMMITs<br/><br/><br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Table2. code evolvement of COMMITs<br/><br/><br/>
 
-## 2. Development
-### 2.1. Structure: Abstract Syntax Tree (AST)
+## II. Development
+### Structure: Abstract Syntax Tree (AST)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; code evolvement of COMMITs<br/><br/><br/>
 ![](./img/ast.png)
-### 2.2 Structure: Control Flow Graph (CFG)
+### Structure: Control Flow Graph (CFG)
 ![](./img/cfg.png)
-### 2.3 Semantics: Dependency Graph (DG)
+### Semantics: Dependency Graph (DG)
 ![](./img/ssg.png)
-
-## 3. Meta-Commit Digest
+<br/> <br/>
+## III. Meta-Commit Digest
 <table>
     <tr>
         <td rowspan="3">&emsp;&emsp;COMMIT</td>
@@ -124,9 +125,9 @@
     </tr>
 </table>
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;table3: meta-commit digest<br/><br/><br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Table3. Meta-Commit digest<br/><br/><br/>
 
-## 4. PSR Contribution
+## IV. PSR Contribution
 | ID   | COMMIT                                   | P |  S&emsp;  |  R  | Contribution |
 | ---- | ---------------------------------------- | ---- | ---: | ---: | -----------: |
 | 1    | 24d2a418580ca7e8dad292cc0d7dedf0f384e04a | High | 0.28 |  1.0 |       138.65 |
@@ -136,7 +137,7 @@
 | 5    | 4f6b73844dea1b07a6ddb509a21eab9635fad032 | Mid  | 0.19 |  1.0 |        94.74 |
 | 6    | 507e68b6bebdb19569928a1e453e4138f1a7df4f | Low  | 0.11 |  1.0 |        54.41 |
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;table4: PSR contribution of COMMITs<br/><br/><br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Table4. PSR contribution of COMMITs<br/><br/><br/>
 
 | ID   | COMMIT                                   | PSR Contribution | Manual Evaluation |
 | ---- | ---------------------------------------- | -----------: | :-----------: |
@@ -147,7 +148,7 @@
 | 5    | 4f6b73844dea1b07a6ddb509a21eab9635fad032 |        94.74 | 3 |
 | 6    | 507e68b6bebdb19569928a1e453e4138f1a7df4f |        54.41 | 1 |
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;table5: compare of PSR Contribution and Manual Evaluation<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Table5. compare of PSR Contribution and Manual Evaluation<br/>
 
 &emsp;&emsp;Manual scoring gives scores from a professional perspective based on the specific content of the commit considering difficulty, workload, innovation, etc. The results show that the PSR score is basically highly linearly correlated with manual scoring, and the correlation coefficients of Spearman and Kendall reach 0.97 and 0.93.
 The highest rated commit 24d2a4, as a major code work, has more workload and difficulty than others. It’s meta-commit is shown as above that its Structural Feature and Semantic Feature are larger than others, so the score is high.
