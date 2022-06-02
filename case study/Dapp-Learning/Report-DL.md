@@ -27,6 +27,8 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Table2. code evolvement of COMMITs<br/><br/><br/>
 
 ## II. Development
+The following visually demonstrates development contributions related to the 6 COMMITs.
+
 ### Structure: Abstract Syntax Tree (AST)
 ![](./img/ast.png)
 ### Structure: Control Flow Graph (CFG)
@@ -35,6 +37,8 @@
 ![](./img/ssg.png)
 <br/> <br/>
 ## III. Meta-Commit Digest
+A meta-commit digest is an encoding of the raw meta-commit data.
+
 <table>
     <tr>
         <td rowspan="3">&emsp;&emsp;COMMIT</td>
