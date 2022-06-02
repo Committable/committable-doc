@@ -148,11 +148,10 @@
 | 5    | 4f6b73844dea1b07a6ddb509a21eab9635fad032 |        94.74 | 3 |
 | 6    | 507e68b6bebdb19569928a1e453e4138f1a7df4f |        54.41 | 1 |
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Table5. compare of PSR Contribution and Manual Evaluation<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Table5. Contribution acceptance<br/>
 
-&emsp;&emsp;Manual scoring gives scores from a professional perspective based on the specific content of the commit considering difficulty, workload, innovation, etc. The results show that the PSR score is basically highly linearly correlated with manual scoring, and the correlation coefficients of Spearman and Kendall reach 0.97 and 0.93.
-The highest rated commit 24d2a4, as a major code work, has more workload and difficulty than others. It’s meta-commit is shown as above that its Structural Feature and Semantic Feature are larger than others, so the score is high.
-For the lowest rated commit 507e68 and commit fd6974, because only one comment line is added and the file is renamed, and their Structural Feature and Semantic Feature are both 0, so the score is low.
-Finally, comparing commit 4f6b73 with b204d3 and c38016, although 4f6b73 only modified one line of code, while the other two modified more code, but because 4f6b73 has a greater impact on code structure and semantics, it is reflected in (sequence\selection\loop) Structural and Semantic Feature. That means more effective work , so its PSR score is higher, and the other two commits are comparable, so its score is comparable；
-
+### Interpretation of the results
+- PSR contribution is generally consistent with manual decisions with high correlation coefficients, i.e., 0.97 and 0.93 for Spearman and Kendall. 
+- COMMIT-24d2a4 is given the highest PSR contribution because it is addressing a high-priority problem and delivers more workload than others as shown above. In the opposite, 507e68 and fd6974 are ranked lowest since they are only adding one comment and renaming a file. 
+- The comparisons between 4f6b73 and b204d3, also 4f6b73 and c38016, are interesting based on PSR since 4f6b73 outperforms the other two with less lines of code modified. The reason behind is that 4f6b73 contributes more to the software on structures and semantics, even with a single line of code.
 
