@@ -6,6 +6,9 @@ A open-source project that run better if we can help
 
 **Several protocols try to solve the public goods problem in the open-source ecosystem or make their own contributions with different approaches.**
 
+<img width="1057" alt="image" src="https://user-images.githubusercontent.com/490285/171596155-9eb9d0b6-2dd6-47b7-8d4f-ba544faa537e.png">
+
+
 ## Committable 💰⚖️📦
 
 A decentralised open-source protocol, focusing on software monetisation
