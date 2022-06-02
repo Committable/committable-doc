@@ -1,2 +1,2 @@
 # committable-doc
-Committable Documentation
+Public documents of Committable
