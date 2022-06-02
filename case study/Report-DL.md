@@ -28,7 +28,6 @@
 
 ## II. Development
 ### Structure: Abstract Syntax Tree (AST)
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; code evolvement of COMMITs<br/><br/><br/>
 ![](./img/ast.png)
 ### Structure: Control Flow Graph (CFG)
 ![](./img/cfg.png)
