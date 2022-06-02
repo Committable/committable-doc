@@ -151,7 +151,7 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Table5. Contribution acceptance<br/>
 
 ### Interpretation of the results
-- PSR contribution is generally consistent with manual decisions with high correlation coefficients, i.e., 0.97 and 0.93 for Spearman and Kendall. 
-- COMMIT-24d2a4 is given the highest PSR contribution because it is addressing a high-priority problem and delivers more workload than others as shown above. In the opposite, 507e68 and fd6974 are ranked lowest since they are only adding one comment and renaming a file. 
+- PSR contribution is generally consistent with manual decisions with high correlation coefficients, i.e., 0.97 and 0.93 for the Spearman and Kendall standard respectively. 
+- COMMIT-24d2a4 is given the highest PSR contribution because it is addressing a high-priority problem and delivers more workload than others as shown above. In the opposite, 507e68 and fd6974 are ranked lowest since they are only adding one comment and renaming a file in the project. 
 - The comparisons between 4f6b73 and b204d3, also 4f6b73 and c38016, are interesting based on PSR since 4f6b73 outperforms the other two with less lines of code modified. The reason behind is that 4f6b73 contributes more to the software on structures and semantics, even with a single line of code.
 
